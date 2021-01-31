@@ -6,7 +6,7 @@ $RolesList = @()
 Remove-Item $opfile -ErrorAction SilentlyContinue
 
 #Login to Azure
-#Login-AzAccount > $null
+Login-AzAccount > $null
 
 $subs = Get-AzSubscription | Select name, id
 foreach ($sub in $subs) {
