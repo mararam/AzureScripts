@@ -19,6 +19,7 @@
     4. Run the runbook using three parameters:
         Parameter1: Provide the Subcription Name or use the default value "ALL" which applies to all subscriptions within the tenant
         Parameter2: Provide the Storage Account Name(s) followed by comma(,) or use the default value "ALL" which applies to all storage accounts within the subscription(s)
+        Example: storageaccount2:rg2/storageaccount2:rg2
         Parameter3: Provide the Key1 or Key2 or All(To change for both the keys)
         Parameter4: Provide the keyvault Name where secrets will be stored
         Parameter5: Provide as "Copy" if you want to copy the existing storage accounts keys in the key vault
